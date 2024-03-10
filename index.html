@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/eccf83b36a.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id='header'>
+        <div id="container">
+            <nav>
+                <img src="images/portfolio.png" alt="logo" class="logo">
+                <ul>
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#About">About Me</a></li>
+                    <li><a href="#Portfolio">Portfolio</a></li>
+                    <li><a href="#Projects">Projects</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div id="banner">
+            <div class="banner1">
+                <h1>Hi, I'm <span>Muhsin Raza</span></h1>
+                <p>Web Developer , Gen AI Specialist, </br>Cloud Certified Practitioner</p>
+            </div>
+            <div class="banner2">
+                <img src="images/bg1.png" alt="banner" class="banner-img">
+            </div>
+
+        </div>
+    </div>
+
+    <!-- --------------------------------About Me-------------------------------- -->
+    <div id="about">
+        <div class="row">
+            <div class="col1">
+                <img src="images/about.jpg" alt="about" class="about-img">
+            </div>
+            <div class="col2">
+                <h1 id="About">About Me</h1>
+                <p>I am a student of Fast NUCES Islamabad, currently pursuing a bachelor's in computer science. I’m passionate
+                    about coding and have a keen interest in development. I have experience in programming languages such as Java,
+                    Python, and C++, and have worked on various projects. I am a quick learner with excellent problem-solving skills
+                    and enjoy taking on new challenges. I have excellent communication skills and am capable of working
+                    individually as well as in groups to achieve project goals.</p>
+                
+                <div class="tabs">
+                    <p class="tabs-head active-head" onclick="opentab('skills')">Skills</p>
+                    <p class="tabs-head" onclick="opentab('education')">Education</p>
+                    <p class="tabs-head" onclick="opentab('experience')">Experience</p>
+                </div>
+
+                <div class="tab-contents active-content" id="skills">
+                    <ul>
+                        <li>Web Designer <span><br>Designing Web Applications</span> </li>
+                        <li>Cloud Engineer <span><br> Microsoft Cloud Practioner</span> </li>
+                        <li>Generative AI <span><br>Generation of new contents <br>using AI algorithms</span> </li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li>BS Computer Science<span><br>FAST NUCES</span> </li>
+                        <li>FSC Pre Engineering<span><br>Punjab Group of Colleges</span> </li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li>Research Assisstant at Upstart Commerce<span><br>Aug 2023 - May2024</span> </li>
+                        <li>Backend Developer at Wings IT Solution<span><br>May 2023 - Aug 2023</span> </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- -------------------------------- Portfolio -------------------------------- -->
+
+<div id="Portfolio">
+    <h1>Portfolio</h1>
+    <div class="serviceslist">
+        <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Developer</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni velit suscipit itaque fuga minima cum 
+                quaerat recusandae quasi alias ullam.</p>
+            <a href="">Learn More</a>
+        </div>
+    
+        <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Developer</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni velit suscipit itaque fuga minima cum 
+                quaerat recusandae quasi alias ullam.</p>
+            <a href="">Learn More</a>
+        </div>
+    
+        <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Developer</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni velit suscipit itaque fuga minima cum 
+                quaerat recusandae quasi alias ullam.</p>
+            <a href="">Learn More</a>
+        </div>
+    </div>
+</div>
+
+<!-- -------------------------------- Projects -------------------------------- -->
+
+<div id="Projects">
+    <h1>Projects</h1>
+    <div class="tabs">
+        <p class="tabs-head active-head" onclick="opentab('Web-Projects')">Web Projects</p>
+        <p class="tabs-head" onclick="opentab('AI-Projects')">AI Projects</p>
+    </div>
+
+    <div class="tab-contents active-content" id="Web-Projects">
+        <ul>
+            <li> <h3>Hospital Management System</h3> <span><br>C#, SQL, HTML, CSS, JavaScript<br>
+                1- Manage day-to-day operations and medical facilities. The system includes different modules such as managing patient data, maintaining medical history, appointments, and billing information.
+                <br>2- Acquired a Comprehensive skill for developing a robust DBMS.
+                <br>3- Helped me understanding working of SQL Queries in a real management system </span> 
+            </li>
+            
+            <li> <h3>Mart Management System </h3><span><br> JavaFX, Java, SQL<br>
+                1- A Desktop Application designed to manage operations like inventory management, sales and purchasing, managing all customer operations.
+                <br>2- Helped me improving my management skills and communication skills with co-workers  </span> 
+            </li>
+            
+            <li> <h3>Shopping Catalog</h3><span><br>Dart, Json, Google API's<br>
+                1- Flutter Mobile Application designed in a way that can be organized in various ways, such as by
+                category, price range, to help customers find what they are looking for more easily. It also includes
+                additional features such as customer reviews, recommendations, and personalized suggestions based on
+                the customer's browsing and purchasing history.
+                <br>2- Learned Agile project management practices, including backlog management, sprint planning, and sprint
+                reviews.
+                <br>3- Helped me improve my communication skills as we have to collaborate with all stakeholders. </span> 
+            </li>
+        </ul>
+    </div>
+
+    <div class="tab-contents" id="AI-Projects">
+        <ul>
+            <li><h3>Caption Craft</h3><span><br>Hugging Face, Python, Flutter<br>
+                1- Utilized diverse captioning models including BLIP, BLIP2, and CLIP for the initial phase of content
+                generation.
+                <br>2- Applied fine-tuning techniques to adapt these captioning models to our specific dataset, ensuring improved
+                performance and relevance.
+                <br>3- Integrated distilled Large Language Models, specifically LAMA, into the pipeline to process and extend the
+                generated captions</span> 
+            </li>
+
+            <li><h3>Supply Demand Prediction Model</h3><span><br>Python, Pandas, NumPy, Sklearn <br>
+                1- Examine various machine learning models suitable for supply and demand forecasting
+                <br>2- Aimed at achieving the best possible outcomes in predicting the availability of number of drivers and riders
+                in a specific location and time.
+            </span> </li>
+
+            <li><h3>Fake Currency Detection</h3><span><br> OpenCV, Tkinter, NumPy, Jupyter Notebook<br>
+                1- Utilize OpenCV library for efficient image processing, enhancing the system's ability to analyze and
+                authenticate currency notes.
+                <br>2- Employ Tkinter library to create a user-friendly GUI
+            </span> </li>
+        </ul>
+    </div>
+</div>
+
+<!-- -------------------------------- Contact -------------------------------- -->
+<div id="Contact">
+    <h1 id="contact-me">Contact me:</h1>
+    <div class="social-icons">
+        <div class="emai">
+            <i class="fa-regular fa-envelope"></i>
+            <a href="https://razamuhsin254@gmail.com">razamuhsin254@gmail.com</a>
+        </div>
+        <div class="github">
+            <i class="fa-brands fa-github"></i>
+            <a href="https://github.com/MuhsinRaza253">https://github.com/MuhsinRaza253</a>
+        </div>
+        <div class="linkedin">
+            <i class="fa-brands fa-linkedin"></i>
+            <a href="https://www.linkedin.com/in/muhsin-raza">https://www.linkedin.com/in/muhsin-raza</a>
+        </div>
+        <div class="phoneNumber">
+            <i class="fa-solid fa-mobile"></i>
+            <a href="tel:+923090795658">+923090795658</a>
+        </div>
+    </div>
+    <a href="images/CV_MuhsinRaza.pdf" class="btn btn2">Download CV</a>
+</div>
+
+<script>
+    var tabHeads = document.getElementsByClassName('tabs-head');
+    var tabContents = document.getElementsByClassName('tab-contents');
+
+    function opentab(tabName){
+        for (tabHead of tabHeads){
+            tabHead.classList.remove('active-head');
+        }
+
+        for (tabcontent of tabContents){
+            tabcontent.classList.remove('active-content');
+        }
+        
+        event.currentTarget.classList.add('active-head');
+        document.getElementById(tabName).classList.add('active-content');
+    }
+</script>
+
+</body>
+</html>
